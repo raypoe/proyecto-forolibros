@@ -199,6 +199,17 @@ p {
     background: rgb(210, 211, 228);
 }
 
+.imagenes-galeria{
+    display: flex;
+    justify-content: center;  
+}
+.imagenes-galeria:hover{
+    background: rgba(155, 155, 155, 0.74); 
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
 @media screen and (max-width: 500px) {
     .encabezado {
         background-color: rgba(155, 155, 155, 0.74);
