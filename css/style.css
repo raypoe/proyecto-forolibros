@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 .pie-pagina {
-    background-color: rgba(155, 155, 155, 0.74);
+    background-color: rgba(155, 155, 155, 0.493);
     display: flex;
     position: fixed;
     width: 100%;
@@ -51,11 +51,15 @@ nav ul li a {
 }
 
 body {
-    background-image: url(../img/library-g71ae4d2e7_1920.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .logo-pagina {
 
+    border-color: rgb(0, 0, 0);
     border-style: solid;
     width: 10rem;
 }
@@ -112,8 +116,8 @@ div {
     grid-column: span 3;
 }
 
-.articulo-noticias1, 
-.articulo-noticias2, 
+.articulo-noticias1,
+.articulo-noticias2,
 .articulo-noticias3 {
     padding: 20px;
     border: 1px solid rgb(0, 0, 0);
@@ -123,27 +127,27 @@ div {
     display: inline-block;
 }
 
-.articulo-noticias1, 
-.articulo-noticias2, 
+.articulo-noticias1,
+.articulo-noticias2,
 .articulo-noticias3,
 h1,
 p {
     padding: 10px;
 }
 
-.articulo-noticias1:hover{
+.articulo-noticias1:hover {
     background: rgb(210, 211, 228);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.articulo-noticias2:hover{
+.articulo-noticias2:hover {
     background: rgb(210, 211, 228);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.articulo-noticias3:hover{
+.articulo-noticias3:hover {
     background: rgb(210, 211, 228);
     cursor: pointer;
     transition: all 0.5s ease;
@@ -155,22 +159,22 @@ p {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    
+
 }
 
-.aside-noticias1:hover{
+.aside-noticias1:hover {
     background: rgb(210, 211, 228);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.aside-noticias2:hover{
+.aside-noticias2:hover {
     background: rgb(210, 211, 228);
     cursor: pointer;
     transition: all 0.5s ease;
 }
 
-.aside-noticias3:hover{
+.aside-noticias3:hover {
     background: rgb(210, 211, 228);
     cursor: pointer;
     transition: all 0.5s ease;
@@ -199,15 +203,66 @@ p {
     background: rgb(210, 211, 228);
 }
 
-.imagenes-galeria{
+.imagenes-galeria {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
-.imagenes-galeria:hover{
-    background: rgba(155, 155, 155, 0.74); 
+
+.imagenes-galeria:hover {
+    background: rgba(155, 155, 155, 0.74);
     transform: scale(1.1);
     transition: 0.2s;
 }
+
+.card {
+
+    background-color: rgb(210, 211, 228);
+    margin: 40px;
+    border-radius: 12px;
+    cursor: zoom-in;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.main-index {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+
+}
+
+.opciones-foro {
+    background-color: rgba(155, 155, 155, 0.74);
+    margin: 2px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+.reglas-foro {
+    background-color: rgb(210, 211, 228);
+    font-style: italic;
+}
+
+.volver {
+    font-size: 1.2rem;
+}
+
+div{
+    border: none;
+}
+
+
+
 
 
 @media screen and (max-width: 500px) {
