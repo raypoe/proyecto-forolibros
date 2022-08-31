@@ -1,73 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.encabezado {
-    background-color: rgba(155, 155, 155, 0.74);
-    display: flex;
-
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.nav-bar {
-    list-style: none;
-    gap: 2rem;
-    display: flex;
-}
+@import "variables";
+@import "header";
+@import "footer";
+@import "generales";
 
 
 
-nav ul li a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0);
-    font-family: 'Playfair Display', serif;
 
-}
 
-.pie-pagina {
-    background-color: rgba(155, 155, 155, 0.493);
-    display: flex;
-    position: fixed;
-    width: 100%;
-    bottom: 0%;
 
-}
 
-.pie-pagina p {
-    font-family: 'Playfair Display', serif;
-    color: rgb(0, 0, 0);
-    font-size: 1.3rem;
 
-}
 
-body {
-    background-image: url(https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 
-}
 
-.logo-pagina {
 
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    width: 10rem;
-}
-
-.main-contacto {
-    background-color: rgba(255, 255, 255, 0.836);
-
-}
 
 .formulario-contacto {
     display: flex;
@@ -75,22 +22,7 @@ body {
     width: 10%;
 }
 
-.titulo-foro {
-    background-color: rgba(255, 255, 255, 0.836);
 
-}
-
-.titulo-galeria {
-    background-color: rgba(255, 255, 255, 0.836);
-}
-
-.titulo-noticias {
-    background-color: rgba(255, 255, 255, 0.836);
-}
-
-.titulo-contacto {
-    background-color: rgba(255, 255, 255, 0.836);
-}
 
 .contenido-noticias {
     background-color: rgb(236, 233, 229);
@@ -120,7 +52,7 @@ div {
 .articulo-noticias2,
 .articulo-noticias3 {
     padding: 20px;
-    border: 1px solid rgb(0, 0, 0);
+    
     margin-top: 5px;
     margin-block: 50px;
     background-color: rgb(236, 233, 229);
@@ -253,13 +185,7 @@ p {
     font-style: italic;
 }
 
-.volver {
-    font-size: 1.2rem;
-}
 
-div {
-    border: none;
-}
 
 
 

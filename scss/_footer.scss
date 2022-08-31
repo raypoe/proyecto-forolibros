@@ -1,0 +1,14 @@
+.pie-pagina {
+    background-color: $color-footer;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+
+}
+
+.pie-pagina p {
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+}
