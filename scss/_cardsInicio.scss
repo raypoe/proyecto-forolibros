@@ -1,0 +1,37 @@
+.card {
+   @extend %cardsInicio;
+    
+}
+
+.card:hover {
+    @extend %hoverCards;
+}
+
+.tarjeta {
+    @include tarjetas($textColor: rgb(255, 255, 255), $bgColor: rgb(197, 124, 40))
+
+}
+
+.tarjeta:hover{
+    @extend %hoverCards;
+}
+
+.tarjeta1{
+    @include tarjetas($textColor: rgb(255, 255, 255), $bgColor: rgb(86, 151, 25))
+
+}
+
+.tarjeta1:hover{
+    @extend %hoverCards;
+}
+
+.tarjeta2{
+    background-color: map-get($estilos, colorPrimario);
+    margin: map-get($estilos, marginPrimario);
+    border-radius: map-get($estilos, borderRadiusPrimario);
+    cursor: map-get($estilos, mouse);
+    color: map-get($estilos, colorTexto);
+}
+.tarjeta2:hover{
+    @extend %hoverCards;
+}

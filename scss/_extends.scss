@@ -1,0 +1,11 @@
+%cardsInicio {
+    background-color: rgb(210, 211, 228);
+    margin: 40px;
+    border-radius: 12px;
+    cursor: zoom-in;    
+}
+
+%hoverCards { 
+    transform: scale(1.1);
+    transition: 0.2s;
+}

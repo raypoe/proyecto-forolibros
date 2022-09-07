@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import "mixins";
+@import "maps";
 @import "variables";
 @import "header";
 @import "footer";
 @import "generales";
+@import "extends";
+@import "cardsInicio";
+
 
 
 
@@ -146,17 +151,7 @@ p {
     transition: 0.2s;
 }
 
-.card {
-    background-color: rgb(210, 211, 228);
-    margin: 40px;
-    border-radius: 12px;
-    cursor: zoom-in;
-}
 
-.card:hover {
-    transform: scale(1.1);
-    transition: 0.2s;
-}
 
 .main-index {
     width: 100%;
@@ -178,14 +173,13 @@ p {
     border-radius: 12px;
     font-family: 'Playfair Display', serif;
     
+    
 }
 
 .reglas-foro {
     background-color: rgb(210, 211, 228);
     font-style: italic;
 }
-
-
 
 
 

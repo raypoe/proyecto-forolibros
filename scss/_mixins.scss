@@ -1,0 +1,9 @@
+@mixin tarjetas($textColor, $bgColor) {
+    background-color: $bgColor;
+    margin: 40px;
+    border-radius: 12px;
+    cursor: zoom-in; 
+    color: $textColor; 
+
+     
+}
