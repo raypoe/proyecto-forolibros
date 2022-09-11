@@ -6,8 +6,8 @@
 body {
     background-image: url(https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-
+    background-repeat: repeat;
+    
 }
 
 .volver {
@@ -18,24 +18,3 @@ div {
     border: none;
 }
 
-.main-contacto {
-    background-color: $color-titulo-secciones;
-
-}
-
-.titulo-foro {
-    background-color: $color-titulo-secciones;
-
-}
-
-.titulo-galeria {
-    background-color: $color-titulo-secciones;
-}
-
-.titulo-noticias {
-    background-color: $color-titulo-secciones;
-}
-
-.titulo-contacto {
-    background-color: $color-titulo-secciones;
-}
