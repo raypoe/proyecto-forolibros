@@ -30,6 +30,11 @@ nav ul li a {
   width: 10rem;
 }
 
+.ingresar {
+  height: 20%;
+  border-style: none;
+}
+
 .pie-pagina {
   background-color: rgba(155, 155, 155, 0.74);
   display: flex;
@@ -60,7 +65,7 @@ body {
 }
 
 div {
-  border: none;
+  border-style: none;
 }
 
 .card {
@@ -267,6 +272,10 @@ p {
   background-color: rgba(255, 255, 255, 0.836);
 }
 
+.vh-100 {
+  background-color: rgba(255, 255, 255, 0.836);
+}
+
 @media screen and (max-width: 500px) {
   .encabezado {
     background-color: rgba(155, 155, 155, 0.74);
@@ -292,4 +301,7 @@ p {
     display: flex;
     flex-direction: column;
   }
+}
+div {
+  border-style: none;
 }/*# sourceMappingURL=styles.css.map */
